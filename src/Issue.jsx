@@ -24,24 +24,24 @@ const Issue = () => {
       {/*    header top */}
       <div className="bg-[#24292f]  flex justify-between items-center px-2   py-[2px] ">
         {/*    header top  left*/}
-        <div className="flex gap-3  items-center  ">
+        <div className="flex items-center gap-3 ">
           {/* p1 for size */}
-          <span className="flex border rounded-md border-slate-400 items-center p-1  justify-around">
+          <span className="flex items-center justify-around p-1 border rounded-md border-slate-400">
             <FiMenu size={17} />
           </span>
           <span>
             <FaGithub size={20} />
           </span>
-          <span className="text-ellipsis overflow-hidden ">
+          <span className="overflow-hidden text-ellipsis ">
             santoshy1101 / question-milk-2296
           </span>
         </div>
 
         {/*    header top right */}
 
-        <div className="flex gap-x-3 px-2 ">
-          <span className="min-[1024px]:border-r border-slate-200 min-[1024px]:px-4 flex  ">
-            <span className="flex border rounded-md border-slate-200  items-center px-1 ">
+        <div className="flex px-2 gap-x-3 ">
+          <span className="min-[1024px]:border-r border-slate-300 min-[1024px]:px-4 flex  ">
+            <span className="flex items-center px-1 border rounded-md border-slate-200 ">
               <span className="flex items-center gap-2 ">
                 <FiSearch size={20} />
                 <span className="min-w-[200px] border-r mr-1 hidden md:block">
@@ -61,7 +61,7 @@ const Issue = () => {
           <span className="flex border rounded-md border-slate-400 items-center p-1 justify-around max-[1024px]:hidden">
             <GoIssueOpened size={17} />
           </span>
-          <span className="flex border rounded-md border-slate-400 items-center p-1 justify-around">
+          <span className="flex items-center justify-around p-1 border rounded-md border-slate-400">
             <AiOutlinePullRequest size={17} />
           </span>
           <span className="w-[30px] flex border-[1.5px] rounded-[50px]  border-slate-400 items-center   justify-around">
@@ -75,18 +75,18 @@ const Issue = () => {
       </div>
 
       {/*       header bottom*/}
-      <div className="flex items-center gap-x-8 px-3  overflow-auto">
+      <div className="flex items-center px-3 overflow-auto gap-x-8">
         <span className="flex items-center gap-x-2">
           {' '}
           <FiCode size={17} /> Code
         </span>
-        <span className="flex items-center gap-x-2 border-b-2 py-2 px-2 border-orange-500">
+        <span className="flex items-center px-2 py-2 border-b-2 border-orange-500 gap-x-2">
           <GoIssueOpened size={17} /> Issues{' '}
         </span>
-        <span className="flex flex-row  items-center gap-x-2">
+        <span className="flex flex-row items-center gap-x-2">
           {' '}
           <AiOutlinePullRequest size={17} />
-          <p className="whitespace-nowrap text-ellipsis overflow-hidden">
+          <p className="overflow-hidden whitespace-nowrap text-ellipsis">
             Pull Requests
           </p>
         </span>
